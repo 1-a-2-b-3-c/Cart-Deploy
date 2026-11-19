@@ -30,7 +30,7 @@
     <c:forEach var="item" items="${cart.items}">
         <c:set var="total" value="${total + item.quantity * item.price}"/>
     </c:forEach>
-    <h2>Total: <c:out value="${total}"/></h2>
+    <h2>Total: <c:out value="$${total}"/></h2>
 
     <form action="cart" method="post">
         <input type="hidden" name="action" value="back">

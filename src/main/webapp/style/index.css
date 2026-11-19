@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    margin-right: 2em;
+}
+
+p {
+    font-size: 20pt;
+    color: #32447D;
+}
+label {
+    font-weight: 5px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #B6C4F2
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#check {
+    margin-top: 10px;
+}
+
